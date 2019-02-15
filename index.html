@@ -2,43 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Trevor Wilson</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
   </head>
   <body>
-    <!-- Header / Nav top Section -->
     <header>
-      <div class='nav-container'>
-        <!-- Name box on top left of page -->
-        <h1 class='float_left'>Trevor Wilson</h1>
-        <!-- section of links floating to the right of header/nav -->
-        <span class='nav-links'>
-          <a href="index.html">About</a>
-          <span class="nav-divider"></span>
-          <a href="portfolio.html">Portfolio</a>
-          <span class="nav-divider"></span>
-          <a href="contact.html">Contact</a>
-        </span>
+      <div class="container">
+        <a href="index.html" id='logo'>Trevor Wilson</a>
+        <nav>
+          <a href="index.html"><span id='first-link'>About</span></a>
+          <a href="portfolio.html"><span>Portfolio</span></a>
+          <a href="contact.html"><span>Contact</span></a>
+        </nav>
       </div>
     </header>
-    <!-- Main content section. -->
-    <section>
-      <!-- Section title -->
-      <h2>About Me</h2>
-      <!-- Line between section header and actual content -->
-      <hr />
-      <!-- section content container -->
-      <div class="content">
-        <!-- Basic about page information -->
-        <img src="./assets/images/selfphoto.jpg" alt="Placeholder">
-        <p>Welcome to my portfolio! I am currently working on this page so it will be evolving over time, so look forward to what I will bring in the future!</p>
-        <p>In the past I've primarily worked in the IT field within school districts, with over nine years of total experience between the many jobs that I've had. I've also started my own business along side my normal full time job in the past, successfully running it for slightly over two years before deciding to sell it to give myself more time to focus on my job and pursuing other interests, like learning web development!</p>
-        <p>Currently enrolled in the Full Stack Web Development Bootcamp through SMU and hoping to move myself into a different career once completed.</p>
+    <div class="content-area">
+      <div id='main-container' class="container">
+        <section>
+          <h1>About Me</h1>
+          <img class='author-img' src="./assets/images/selfphoto.jpg" alt="Self Portrait">
+          <p>Welcome to my portfolio! I am currently working on this page so it will be evolving over time, so look forward to what I will bring in the future!</p>
+          <p>In the past I've primarily worked in the IT field within school districts, with over nine years of total experience between the many jobs that I've had. I've also started my own business along side my normal full time job in the past, successfully running it for slightly over two years before deciding to sell it to give myself more time to focus on my job and pursuing other interests, like learning web development!</p>
+          <p>Currently enrolled in the Full Stack Web Development Bootcamp through SMU and hoping to move myself into a different career once completed.</p>
+        </section>
       </div>
-    </section>
-    <footer class='footer'>
-      Copyright &copy
-    </footer>
+    </div>
+    <footer>&copy;Copyright</footer>
   </body>
 </html>

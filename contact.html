@@ -2,48 +2,44 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Trevor Wilson</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
   </head>
   <body>
-    <!-- Header / Nav top Section -->
     <header>
-      <div class='nav-container'>
-        <!-- Name box on top left of page -->
-        <h1 class='float_left'>Trevor Wilson</h1>
-        <!-- section of links floating to the right of header/nav -->
-        <span class='nav-links'>
-          <a href="index.html">About</a>
-          <span class="nav-divider"></span>
-          <a href="portfolio.html">Portfolio</a>
-          <span class="nav-divider"></span>
-          <a href="contact.html">Contact</a>
-        </span>
+      <div class="container">
+        <a href="index.html" id='logo'>Trevor Wilson</a>
+        <nav>
+          <a href="index.html"><span id='first-link'>About</span></a>
+          <a href="portfolio.html"><span>Portfolio</span></a>
+          <a href="contact.html"><span>Contact</span></a>
+        </nav>
       </div>
     </header>
-    <!-- Main content section. -->
-    <section>
-      <!-- Section title -->
-      <h2>Contact</h2>
-      <!-- Line between section header and actual content -->
-      <hr />
-      <!-- section content container -->
-      <div class="content">
-        <!-- Form for contacting me -->
-        <form class="contact-form" action="index.html" method="post">
-          Name<br />
-          <input type="text" name="name" placeholder="John Smith"><br />
-          Email<br />
-          <input type="text" name="email" placeholder="example@gmail.com"><br />
-          Message<br />
-          <textarea name="message"></textarea><br />
-          <input type="submit" name="" value="Submit" class='submit-btn'>
-        </form>
+    <div class="content-area">
+      <div id='main-container' class="container">
+        <section>
+          <!-- Section title -->
+          <h1>Contact</h1>
+          <!-- section content container -->
+          <div class="content">
+            <!-- Form for contacting me -->
+            <form class="contact-form" action="index.html" method="post">
+              Name<br />
+              <input type="text" name="name" placeholder="John Smith"><br />
+              Email<br />
+              <input type="text" name="email" placeholder="example@gmail.com"><br />
+              Message<br />
+              <textarea name="message"></textarea><br />
+              <input type="submit" name="" value="Submit" class='submit-btn'>
+            </form>
+          </div>
+        </section>
       </div>
-    </section>
-    <footer>
-      Copyright &copy
-    </footer>
+    </div>
+
+    <footer>&copy;Copyright</footer>
   </body>
 </html>
